@@ -1,0 +1,12 @@
+---
+- name: start | stop | restart apache2
+  hosts: localhost
+  become: true
+  become_user: root
+  tasks:
+    - name: Add new user
+      user:
+        name: forgci
+        password: '$6$FC677dikrRDaMck1$gTTHfAWaw0SSpB4Y8dAfJa4fzdEM45GmyxJoDtB5.tixF4QFv3PIq0aS3QwCnVlMoGFAt7AhhAb7uPMjDrWJC/'
+        
+
