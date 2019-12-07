@@ -9,7 +9,7 @@ $ dnf install ansible
 * ## Usage:
 Run the file using the following command:
 ```bash
-$ ansible-playbook user.yml
+$ sudo ansible-playbook user.yml
 ```
 
 * ## Description:
